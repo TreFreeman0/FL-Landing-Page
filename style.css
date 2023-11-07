@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    font-family: 'Open Sans','Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.header-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/austrian-national-library-h39HBKBclNM-unsplash.jpg);
+    background-position: center left ;
+    height: 60vh;
+    color: white;
+    outline: 1px black solid;
+    background-color: black;
+}
+/* Navbar styling */
+.navBar{
+    background-color: #3333;
+    padding: 20px;
+}
+.navBar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.navBar .main-menu ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.navBar .main-menu ul li {
+    margin: 0 15px;
+}
+.navBar .main-menu ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition:0.3s,  0.3s;
+    
+}
+.navBar .main-menu ul li a:hover{
+    color:#ff5733;
+    transform: scale(1.1);
+}
+.container{
+    max-width: 1100px;
+    padding: 20px;
+    margin: 0 auto;
+    outline: 1px solid red ;
+}
+.header-content{
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 10rem auto;
+    outline: 1px solid plum;
+    text-align: center;
+}
+.header-content h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.header-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.header-content a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #ff5733;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.header-content a:hover {
+    background-color: #e44d29;
+}
