@@ -27,6 +27,7 @@ img{
     color: white;
     outline: 1px black solid;
     background-color: black;
+    
 }
 /* Navbar styling */
 .navBar{
@@ -100,4 +101,11 @@ img{
 }
 .header-content a:hover {
     background-color: #e44d29;
+}
+
+.offer{
+    background: linear-gradient(to bottom right, #ff5733, #e44d29); /* Gradient background with diagonal direction */
+}
+.offer h2{
+    text-align: center;
 }
