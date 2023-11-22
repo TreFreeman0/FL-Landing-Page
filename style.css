@@ -3,8 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
 }
 body{
     font-family: 'Open Sans','Poppins', sans-serif;
@@ -23,10 +23,12 @@ img{
 .header-wrapper{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/austrian-national-library-h39HBKBclNM-unsplash.jpg);
     background-position: center left ;
-    height: 60vh;
+    height: 70vh;
+    width: auto;
     color: white;
     outline: 1px black solid;
     background-color: black;
+    overflow: hidden;
     
 }
 /* Navbar styling */
@@ -40,7 +42,8 @@ img{
     justify-content: space-between;
 }
 .logo h1{
-    font-size: 24px;
+    font-size: 40px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #fff;
 }
@@ -104,8 +107,42 @@ img{
 }
 
 .offer{
-    background: linear-gradient(to bottom right, #ff5733, #e44d29); /* Gradient background with diagonal direction */
+    background-color: #ff5733;
+    padding: 15px;
 }
 .offer h2{
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.offer-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    grid-template-rows: 1fr 1fr ;
+    gap: 20px;
+    padding: 50px;
+    margin: 20px;
+    /* outline: 1px solid black ; */
+    justify-content: center;
+    
+}
+.offer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* outline: 1px solid black ; */
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+}
+.offer-box p{
+   font-weight: 500;
+}
+.offer-box img{
+    max-width: 
+    
 }
